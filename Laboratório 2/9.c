@@ -27,7 +27,7 @@ int main() {
     if (ehPalindromo(str)) {
         printf("%s e um palindromo.\n", str);
     } else {
-        printf("%s não e um palindromo.\n", str);
+        printf("%s nao e um palindromo.\n", str);
     }
 
     return 0;
