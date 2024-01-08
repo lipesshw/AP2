@@ -11,10 +11,10 @@ int fibonacci(int n) {
 
 int soma(int N) {
     int i;
-    int resultado = 1;
+    float resultado = 1;
 
     for (i = 1; i <= N; i++) {
-        resultado += fibonacci(i) / i;
+        resultado += (float)fibonacci(i) / i;
     }
 
     return resultado;
