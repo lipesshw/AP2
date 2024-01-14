@@ -5,6 +5,7 @@
 #ifndef LAB6_POT_H
 #define LAB6_POT_H
 
+
 int potRecursiva(int x, int n) {
     if (n == 0) {
         return 1;
