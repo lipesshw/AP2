@@ -10,8 +10,8 @@ int main() {
     printf("Digite o expoente: ");
     scanf("%d", &expoente);
 
-    printf("Resultado da exponenciação (recursiva): %d\n", potRecursiva(base, expoente));
-    printf("Resultado da exponenciação (iterativa): %d\n", potIterativa(base, expoente));
+    printf("Resultado da potência (recursiva): %d\n", potRecursiva(base, expoente));
+    printf("Resultado da potência (iterativa): %d\n", potIterativa(base, expoente));
 
     return 0;
 }
